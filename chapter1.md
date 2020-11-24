@@ -1,4 +1,4 @@
-# Notes
+# Introduction
 
 # Application of Database Technology
 
@@ -60,5 +60,46 @@ DB approach - structure query language SQL
   SQL offers both DDL and DML
 
 ## Advantages of DB and DBMS
-  data indipendence, data modelling, managing structured, semi-structured and unstructured data.
-  managing data redundance, backup and recovery facilities, data security, performance utilities
+### data independence,
+  changes in data definitions have minimal impact on application
+  physical data independence if data storage specification in the internal data model changes application, view or logical data models should not be affected
+  logical data independence means software application are minimal affected by changes in the conceptual or logical data model.
+### data modelling,
+  different model
+### managing structured, semi-structured and unstructured data.
+ number, name etc
+  * unstructured data
+  no series of charecter, long text...
+  the size exceeding the structure data
+  * semi-structure
+  irregular, XML nosql databases, cvs etc...
+### managing data redundancy
+  should be no duplication,
+  no human intervation
+### specifying integrity rules
+  costumer id is integer
+  birthdate m/d/y
+  Semantical rules semantical correctness..
+### Concurrency Control
+  paralel processing.
+  databese write and read executation...
+  at the same time, atomic time
+  lost update problem
+  eliminate simultinous application
+  ACID Atomicity, Consistency, Isolation, Durability
+  Atomicity requires a transaction should either be executed in its entirety or not all
+  Consistency brings the db from one consistent state to another
+  Isolation the effect of concurrent transactions should be the same as if they would have been executed in isolation
+  Durability db changes made by a transaction declared successful can be made permanent under all circumtances
+### backup and recovery facilities
+  bugs or network failures.
+  perform full or incremantal update
+### data security
+  users can read, write previlages
+  VMI vendor managed inventory.
+### performance utilities
+  KPI are three
+  response time db request and termination
+  throughput rate process per unit time
+  space utilization space raw data
+  utilities that optimize data storage, tune index for faster query execution, optimize buffer management
