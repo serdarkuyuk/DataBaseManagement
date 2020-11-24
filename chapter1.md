@@ -39,11 +39,11 @@ DB approach - structure query language SQL
   Enhanced-Entity relationships EER
   object-oriented models
   logical data model are translational and canbe hierarchical, CODASYL, relational, object-oriened, extended relational, XML or NoSQL model
-  pysical storage details, which data is stored where, in what format, highly dbms specific
+  pysical storage details, which data is stored where, in what format, highly dbms specificded
   External data models contains subset of data items also called views... tailored towards the needs of specific application
 * The tree layer architeture
 
-  ![](/Users/serdar/Desktop/picture.png)
+  ![](/Users/serdar/Desktop/deneme1.png)
 * Catalog
 * Database Users
 * DB languages
