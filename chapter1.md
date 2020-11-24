@@ -46,5 +46,19 @@ DB approach - structure query language SQL
   student view only for student registratio office
   ![first figure](./figures/Screen Shot 2020-11-24 at 7.10.35 AM.png)
 * Catalog
+  heart of dbms
+  contains data definitions or metadata
+  stores the definitions of the views logical and internal data models
 * Database Users
+  DBA database administrator.
+  application developer
+  business user run application
 * DB languages
+  DDL data definition language
+  DML data manipulation language
+    insert, delete, modify data
+  SQL offers both DDL and DML
+
+## Advantages of DB and DBMS
+  data indipendence, data modelling, managing structured, semi-structured and unstructured data.
+  managing data redundance, backup and recovery facilities, data security, performance utilities
