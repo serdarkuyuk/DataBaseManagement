@@ -42,7 +42,8 @@ DB approach - structure query language SQL
   pysical storage details, which data is stored where, in what format, highly dbms specific
   External data models contains subset of data items also called views... tailored towards the needs of specific application
 * The tree layer architeture
-  ![](/Users/serdar/Desktop.Screen Shot 2020-11-22 at 3.20.27 AM.png)
+
+  ![](/Users/serdar/Desktop/picture.png)
 * Catalog
 * Database Users
 * DB languages
