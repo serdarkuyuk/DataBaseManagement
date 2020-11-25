@@ -190,3 +190,13 @@ internal memory, cacheing speedy access.
 ### Sensoring   
 
 * sensor such as biometric from wearables, telematics data
+
+### Mobile
+
+* smartphones, should be online, small footprint, limited processing power
+* Oracle light, sql anywhere, sql light, ibm db2 everywhere
+
+### Open Source
+
+* sourceforge.net
+* MySQL (oracle) postgre,   
